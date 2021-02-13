@@ -2,6 +2,10 @@
 
 This is the repo for the blog at [Data Engineering Project: Stream Edition](https://www.startdataengineering.com/post/data-engineering-project-for-beginners-stream-edition/)
 
+
+#### Quick start
+- [quick_start.md](https://github.com/DataEngDev/beginner_de_project_stream/blob/main/doc/quick_start.md)
+
 ## Prerequisites
 
 You will need to install

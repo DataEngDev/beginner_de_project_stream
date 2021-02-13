@@ -15,7 +15,7 @@ topic server-logs --from-beginning --max-messages 10 # used to check the first 1
 docker exec -t beginner_de_project_stream_kafka_1 kafka-console-consumer.sh --bootstrap-server :9092  --topic alerts --from-beginning --max-messages 10 # used to check the first 10 messages in the alerts 
 ```
 
-### Check (Postgre)
+#### Check (Postgre)
 ```bash
 containers_id="`docker ps -a | grep postgres:12.2 | awk '{print $1}'`"
 echo $containers_id
